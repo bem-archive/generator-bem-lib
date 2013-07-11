@@ -1,0 +1,42 @@
+{
+  "name": "generator-bem-lib",
+  "version": "0.0.0",
+  "description": "BEM library generator for Yeoman",
+  "keywords": [
+    "yeoman-generator",
+    "stub",
+    "bem",
+    "lib",
+    "library"
+  ],
+  "homepage": "https://github.com/bem/generator-bem-lib",
+  "bugs": "https://github.com/bem/generator-bem-lib/issues",
+  "author": {
+    "name": "Sergey Belov",
+    "email": "peimei@ya.ru",
+    "url": "https://github.com/bem"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bem/generator-bem-lib.git"
+  },
+  "scripts": {
+    "test": "jshint && mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.12.2"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0",
+    "jshint": "~2.1.4"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
